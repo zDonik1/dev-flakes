@@ -29,6 +29,11 @@
             description = "A python project including pytest and debugpy for testing and daebugging with DAP";
           };
 
+          rust-c2n = {
+            path = ./rust-c2n;
+            description = "A template for rust using crago2nix.";
+          };
+
           godot = {
             path = ./godot;
             description = "A template for Godot 4 based projects";
